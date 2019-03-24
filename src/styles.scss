@@ -1,0 +1,133 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+
+body, html {
+    height: 100%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Helvetica';
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    
+    width: 60%;
+    margin: 0 auto;
+    padding: 1.3em;
+    padding-left: 10%;
+    display: grid;
+    grid-template-columns: 10% auto 110% auto;
+
+    a {
+        color: white;
+    }
+}
+
+.about {
+
+    margin: 0 auto;
+    padding: 10px;
+    height: 500px;
+    background: #7ecce4;
+    
+    h1 {        
+        position: relative;
+        top: -40px;
+        font-size: 4em;
+        text-align: center;
+        color: white;
+    }
+
+    h2 {
+        position: relative;
+        top: -80px;
+        text-align: center;
+        color: white;
+        font-size: 1em;
+    }
+
+    p {
+        position: relative;
+        top: -80px;
+        text-align: center;
+        color: white;
+        font-size: 1em;
+    }
+
+    img {
+        position: relative;
+        top: -80px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.skills {
+
+    margin: 0 auto;
+    padding: 10px;
+    height: 100px;
+
+    background-image: url('./assets/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    h1 {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 300px;
+        border: solid black 3px;
+        background-color: white;
+        border-radius: 20px;
+    }
+}
+
+.languages {
+    padding: 10px;
+    text-align: center;
+    background-color: #367b91;
+    ul{
+        overflow: hidden;
+        list-style-type:none;
+        margin:0;
+        padding: 0;
+        li{
+            margin-right: 10px;
+            display: inline;
+            color: white;
+            font-size: 1.4em;
+        }
+    }
+}
+
+.projects {
+
+    margin: 0 auto;
+    padding: 10px;
+    height: 100px;
+
+    background-image: url('./assets/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    h1 {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 300px;
+        border: solid black 3px;
+        background-color: white;
+        border-radius: 20px;
+    }
+}
