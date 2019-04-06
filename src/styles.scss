@@ -17,17 +17,18 @@ a {
 }
 
 .container {
-    
-    width: 60%;
     margin: 0 auto;
     padding: 1.3em;
-    padding-left: 10%;
-    display: grid;
-    grid-template-columns: 10% auto 110% auto;
-
-    a {
-        color: white;
+    li{
+        
+        display:inline;
+        
+        a {
+            color: white;
+        }
     }
+     
+   
 }
 
 .about {

@@ -10,10 +10,8 @@ header {
     
     list-style-type: none;
     margin: 0; padding: 0;
-
-    li {
-        float: left;
-
+    
+    li{
         a {
             padding: 1.5em;
             text-transform: uppercase;
@@ -23,11 +21,14 @@ header {
                     background: rgb(109, 109, 109);
             }
         }
+
     }
-    p {
+    
+    #contact {
         font-family:"times new roman";
         margin: 0 auto;
         color: white;
         font-size: 1em;
     } 
+
 }
