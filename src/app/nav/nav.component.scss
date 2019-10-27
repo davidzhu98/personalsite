@@ -1,34 +1,124 @@
-header {
-    position: sticky;
+header {   
     top:0;
     z-index: 1;
     background: #333;
+    margin-left:100px;
+    margin-right:100px;
 
-    .logo {
-        font-weight: bold;
+    .crop{
+        display: block;
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        float: left;
+        margin-right: 50px;
+        
     }
-    
-    list-style-type: none;
-    margin: 0; padding: 0;
-    
-    li{
-        a {
-            padding: 1.5em;
-            text-transform: uppercase;
-            font-size: .8em;
-
-            &:hover {
-                    background: rgb(109, 109, 109);
-            }
-        }
-
-    }
-    
-    #contact {
-        font-family:"times new roman";
+    .img {
+        object-fit: cover;
+        display: inline;
         margin: 0 auto;
-        color: white;
-        font-size: 1em;
-    } 
+        margin-left:-25%;
+        height: 100%;
+        width: auto;
+    }
+    
+    .name {
+        font-family: 'Monsterrat', sans-serif;
+        color:White;
+        font-size: 38px;
+        margin-bottom: 5px;
+        margin-top: 30px;
 
+    }
+
+    .desc {
+        color: white;
+        font-family: "Lato", arial, sans-serif;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    h1 h2 {
+        font-family: 'Monsterrat', sans-serif;
+        font-weight: 700;
+        color: white;
+    }
+
+    .social {
+        margin-top : 30px;
+        margin-bottom: 0px;
+        color: white;
+    }
+
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-wrapper{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+.section{
+    
+    margin-bottom:30px;
+    background-color: #dbdbdb;
+}
+
+.project{
+    .heading{
+        text-align:left;
+        margin-left:20px;
+    }
+}
+.text-center{
+    text-align:center;
+}
+
+.picsum-img-wrapper{
+    height: 400px;
+    width:500px;
+    .nb{
+        display: block;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+    }
+}
+
+.item{
+    margin-bottom: 20px;
+    
+}
+.section-inner{
+    margin-left:10px;
+}
+.nb {
+    //max-height:500px;
+    max-width: 700px;
+    height:auto;
+    //display: block;
+    margin-left: 50px;    
+}
+
+.picsum-img-wrapper {
+    height:500px;
+    width: 700px;
+
+    
+    
+}.picsum-img-wrapper2 {
+
+    width: 700px;
+
+    
+    
 }
